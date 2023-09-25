@@ -14,7 +14,8 @@ import Error from "../Pages/ErrorPage/Error";
         children:[
             {
                 path:"/",
-                element:<Home></Home>
+                element:<Home></Home>,
+                loader: ()=> fetch('cards.json')
             },
             {
                 path:"/donation",

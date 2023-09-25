@@ -2,7 +2,7 @@
 const Banner = () => {
     const rgbaColor = "rgba(255, 255, 255, 0.80)"
     return (
-        <div className="hero min-h-[70vh]" style={{ backgroundImage: 'url(https://i.ibb.co/VjGGYpv/donation-team.jpg)'}}>
+        <div className="hero min-h-[70vh] my-10" style={{ backgroundImage: 'url(https://i.ibb.co/VjGGYpv/donation-team.jpg)'}}>
             <div className="hero-overlay"
             style={{backgroundColor:rgbaColor}}></div>
             <div className="hero-content text-center text-neutral-content">
