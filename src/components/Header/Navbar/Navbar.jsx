@@ -4,7 +4,7 @@ import "/src/assets/Logo.png";
 const Navbar = () => {
     return (
         <nav className="flex justify-between items-center">
-            <img src={`/src/assets/Logo.png`} alt="" />
+            <img className="w-fit" src={`/src/assets/Logo.png`} alt="" />
             <ul className="flex gap-6">
                 <li className="text-xl font-bold">
                     <NavLink
