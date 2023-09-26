@@ -14,7 +14,7 @@ const CardDetails = () => {
         setSingleCard(findCard);
     },[allCards,id]);
 
-    console.log(singleCard);
+    // console.log(singleCard);
 
     return (
         <div>
