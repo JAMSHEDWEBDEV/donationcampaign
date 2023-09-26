@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const DonationCard = ({ item }) => {
     const { pic, title,button,card_bg_color,category,category_bg_color,price,text_color,button_bg_color} = item;
+
     return (
         <div>
             <div className="card card-side shadow-xl"
@@ -18,7 +19,8 @@ const DonationCard = ({ item }) => {
                     style={{color:text_color}}
                     >{price}</p>
                     <div className="card-actions">
-                        <button className="btn text-white"
+                        <button
+                         className="btn text-white"
                         style={{background:button_bg_color}}
                         >{button}</button>
                     </div>
