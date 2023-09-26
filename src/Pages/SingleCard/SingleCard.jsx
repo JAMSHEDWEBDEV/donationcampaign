@@ -26,11 +26,13 @@ const SingleCard = ({ singleCard }) => {
 
         }
     }
-
+   
     return (
         <div>
             <div>
+                <div>
                 <img className="w-full h-[600px]" src={pic} alt="" />
+                </div>
                 <button 
                 onClick={handleAddToDonation}
                 className='text-white px-3 py-1 ml-5 rounded absolute top-[680px] left-[-500]'
