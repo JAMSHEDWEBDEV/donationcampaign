@@ -47,7 +47,7 @@ const Donation = () => {
                     donations.length > 4 && <button 
                     onClick={() => setIsSeeMore(!isSeeMore)}
                     className="bg-blue-700 text-xl text-white font-semibold px-4 py-2 rounded"
-                    >See More</button>
+                    >{isSeeMore?'See Less':'See All'}</button>
                 }
             </div>
         </div>
