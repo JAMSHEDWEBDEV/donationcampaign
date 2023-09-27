@@ -27,11 +27,16 @@ const SingleCard = ({ singleCard }) => {
         }
     }
    
+    const rgbColor = "rgba(0,0,0,0.3)"
     return (
         <div>
             <div>
                 <div>
                 <img className="w-full h-[600px]" src={pic} alt="" />
+                </div>
+                <div className='w-[1255px] h-[100px] absolute top-[650px] '
+                style={{background: rgbColor}}
+                >
                 </div>
                 <button 
                 onClick={handleAddToDonation}
