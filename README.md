@@ -1,8 +1,11 @@
-# React + Vite
+# Below, we will discuss some notable features of this website:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Users can Donate any category of card easily by click any donation card.
 
-Currently, two official plugins are available:
+2. If the users try to donate same card more than once, a pop-up message will appear.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. The entire website is dynamically created, which means all information and content are loaded through API request. Additionally, the website is fully responsive.
+
+4. The users can see their donation card click the donation page.
+
+The above mentioned feature are the dey highlights of this website and  it is expected that they will assist users in using the website effectively.
