@@ -34,13 +34,13 @@ const SingleCard = ({ singleCard }) => {
                 <div>
                 <img className="w-full h-[600px]" src={pic} alt="" />
                 </div>
-                <div className='w-[1255px] h-[100px] absolute top-[650px] '
+                <div className='w-[295px] md:w-[740px] lg:w-[1255px] h-[100px] absolute top-[800px] md:top-[695px] lg:top-[650px] '
                 style={{background: rgbColor}}
                 >
                 </div>
                 <button 
                 onClick={handleAddToDonation}
-                className='text-white px-3 py-1 ml-5 rounded absolute top-[680px] left-[-500]'
+                className='text-white px-3 py-1 ml-5 rounded absolute top-[830px] md:top-[730px] lg:top-[680px] left-[-500]'
                  style={{ background: button_bg_color }}
                 >donate <span>{price}  </span>
                  </button>
